@@ -1,0 +1,31 @@
+/* bai1 */
+.picture{
+    display: flex;
+    flex-wrap: wrap;
+}
+.picture_1{
+    width: 33.33%;
+}
+.picture_1 p{
+    text-align: center;
+}
+@media(max-width:767px){
+    .picture{
+        display: block;
+    }
+    .picture_1 img{
+        width: 100%;
+    }
+}
+/* bai2 */
+.zoom_picture{
+    display: flex;
+    gap: 80px;
+    padding-top: 80px;
+}
+.zoom_picture img{
+    width: 20%;
+}
+.zoom_picture img:hover{
+    transform: scale(1.5);
+}
